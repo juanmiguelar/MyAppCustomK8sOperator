@@ -1,0 +1,7 @@
+apiVersion: apps.example.com/v1
+kind: MyApp
+metadata:
+  name: my-first-app
+spec:
+  replicas: 2
+  image: nginx:1.27.4
